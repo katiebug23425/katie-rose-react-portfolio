@@ -12,60 +12,60 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           {[
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
-            {
-              title: "",
-              description: "",
-              imgSrc: ,
-              deployedLink:
-                "",
-              githubLink:
-                "https://github.com/",
-            },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
+            // {
+            //   title: "",
+            //   description: "",
+            //   imgSrc: ,
+            //   deployedLink:
+            //     "",
+            //   githubLink:
+            //     "https://github.com/",
+            // },
           ].map((project, index) => (
             // Div container for each project
             <div className="col-12 col-md-6 col-lg-4 my-2" key={index}>

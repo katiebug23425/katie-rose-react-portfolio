@@ -4,7 +4,13 @@
   margin-top: 0rem;
   margin-bottom: 2.6rem;
   font-size: 55px;
+  color:  rgb(255, 0, 0);
+  background-color: black;
+  width: 23%; /* Set the width of the background color */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
 }
+
 /* Set default font and line height for body element */
 body {
   font-family: "Arial", sans-serif;
