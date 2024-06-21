@@ -24,10 +24,10 @@ function About() {
                   All About Katie Rose
                 </Card.Title>
                   <Card.Text>
-                   text 1
+                   I am a full stack developer who is captivated by code, has a passion for programming, a love of learning, who is on a journey through JavaScript as well as a path to learn every other programming language and style, database and relevant topic related to software engineering and programming. I am a double threat as a Fastidious Front-End Fanatic with a Flair for the UI as well as being a Bold Back-End Boss with a penchant for the server side and databases. 
                   </Card.Text>
                   <Card.Text>
-                    text 2
+                  I am a student of Michigan State University as well as a Web Developer for an automotive company in a Suburb of Detroit, MI. I love all things code and while I do tend to be obsessive about the projects I work on, I am always looking for new ways to learn and grow as a developer.
                   </Card.Text>
                   <Card.Text>
                     text 3
