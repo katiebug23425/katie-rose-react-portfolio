@@ -1,8 +1,12 @@
-.contact-header {
+.contact-header, .email-direct {
   text-align: center;
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 50px;
+  color:  rgb(255, 0, 0);
+  background-color: black;
+  width: 40%; /* Set the width of the background color */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
 }
 /* Styling for the custom send message button */
 .custom-send-message-button {

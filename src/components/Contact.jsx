@@ -70,10 +70,10 @@ function Contact() {
       <Container>
         <Row>
           <Col lg={8} className="mx-auto">
-            <h2 className="contact-header">Contact Me</h2>
+            <h2 className="contact-header" style={{ fontSize: '50px' }}>Contact Me</h2>
               <p className="email-direct">
                 *Currently Under Construction* please 
-                <a href="mailto:katierosealford@gmail.com" style={{ marginLeft: '5px' }}>click this link to email me at Gmail</a>
+                <a href="mailto:katierosealford@gmail.com" style={{ marginLeft: '5px' }}>click this link to email me</a>
               </p>
             {messageSent && (
               <div className="alert alert-success" role="alert">
@@ -82,7 +82,7 @@ function Contact() {
             )}
             <Form onSubmit={handleSubmit} noValidate>
               <Form.Group>
-                <Form.Label htmlFor="name">Name:</Form.Label>
+                <Form.Label htmlFor="name" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red' }}>Name:</Form.Label>
                 <Form.Control
                   type="text"
                   className={nameError ? "is-invalid" : ""}
@@ -99,7 +99,7 @@ function Contact() {
                 )}
               </Form.Group>
               <Form.Group>
-                <Form.Label htmlFor="email">Email:</Form.Label>
+                <Form.Label htmlFor="email" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red' }}>Email:</Form.Label>
                 <Form.Control
                   type="email"
                   className={emailError ? "is-invalid" : ""}
@@ -116,7 +116,7 @@ function Contact() {
                 )}
               </Form.Group>
               <Form.Group>
-                <Form.Label htmlFor="message">Message:</Form.Label>
+                <Form.Label htmlFor="message" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red' }}>Message:</Form.Label>
                 <Form.Control
                   as="textarea"
                   className={messageError ? "is-invalid" : ""}

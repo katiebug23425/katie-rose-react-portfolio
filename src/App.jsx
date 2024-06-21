@@ -18,7 +18,7 @@ function App() {
       <Header/>
       <div className="container mt-5">
           <Routes>
-            <Route path="/katie-rose-react-portfolio/" element={<About />} />
+          <Route path="/" element={<About />} />
             <Route path="/katie-rose-react-portfolio/about" element={<About />} />
             {/* <Route path="/katie-rose-react-portfolio/portfolio" element={<Portfolio />} /> */}
             <Route path="/katie-rose-react-portfolio/contact" element={<Contact />} />
