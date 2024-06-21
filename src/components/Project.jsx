@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from 'prop-types';
+// import React from "react";
+import PropTypes from "prop-types";
 
 function Project(props) {
   return (
@@ -10,7 +10,12 @@ function Project(props) {
       </a>
       <div className="card-body">
         <p className="card-text">{props.description}</p>
-        <a href={props.deployedLink} target="_blank" rel="noreferrer" className="btn btn-deployed">
+        <a
+          href={props.deployedLink}
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-deployed"
+        >
           Deployed App
         </a>
         <a href={props.githubLink} target="_blank" rel="noreferrer">

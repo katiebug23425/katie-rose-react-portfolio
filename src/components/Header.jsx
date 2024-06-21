@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import { Container, Row, Col } from "react-bootstrap";
@@ -15,7 +15,7 @@ function Header() {
           <Col className="pb-0">
             <h1 className="text-white" style={{ fontSize: "70px" }}>
               <Link
-                to="/katie-rose-react-portfolio/"
+                to="/"
                 className="text-white text-decoration-none"
                 style={{ margin: "0" }}
               >

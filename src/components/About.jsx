@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Container, Row, Col, Card, Image } from "react-bootstrap";
 import avatar from "../images/life motto.jpg";
 import "../style/About.css";
@@ -20,8 +20,8 @@ function About() {
           <Col xs={12} md={8}>
             <Card>
               <Card.Body>
-                <Card.Title className="text-center mb-4">
-                  About Katie Rose Alford
+                <Card.Title className="text-center mb-4" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red' }}>
+                  All About Katie Rose
                 </Card.Title>
                   <Card.Text>
                    text 1

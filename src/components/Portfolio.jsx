@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import Project from "./Project";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
@@ -6,7 +6,7 @@ import "../style/Portfolio.css";
 // Portfolio component
 function Portfolio() {
   return (
-        // Portfolio container
+    // Portfolio container
     <div className="portfolio-wrapper">
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="container">
