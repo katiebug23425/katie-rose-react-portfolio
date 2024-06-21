@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from "./components/Header";
 import About from './components/About';
 // import Portfolio from './components/Portfolio';
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 // import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -20,9 +20,9 @@ function App() {
           <Routes>
             <Route path="/katie-rose-react-portfolio/" element={<About />} />
             <Route path="/katie-rose-react-portfolio/about" element={<About />} />
-            {/* <Route path="/katie-rose-react-portfolio/portfolio" element={<Portfolio />} />
+            {/* <Route path="/katie-rose-react-portfolio/portfolio" element={<Portfolio />} /> */}
             <Route path="/katie-rose-react-portfolio/contact" element={<Contact />} />
-            <Route path="/katie-rose-react-portfolio/resume" element={<Resume />} /> */}
+            {/* <Route path="/katie-rose-react-portfolio/resume" element={<Resume />} /> */}
           </Routes>
         </div>
         <Footer />

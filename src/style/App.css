@@ -6,7 +6,7 @@ html {
   line-height: 1.6;
 }
 /* Set height, margin, and background image for body element */
-body {
+/* body {
   height: 100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -20,6 +20,12 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100vh;
+} */
+
+body {
+  background-image: url("../images/alexander-sinn-KgLtFCgfC28-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* Set display and flex direction for root element */
 #root {

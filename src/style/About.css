@@ -1,9 +1,20 @@
+body {
+  background-image: url("../images/alexander-sinn-KgLtFCgfC28-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* Styling for the heading */
 .about-heading {
   text-align: center;
   margin-top: 0.4rem;
   margin-bottom: 3rem;
   font-size: 50px;
+  color: red;
+  background-color: white;
+  width: 30%; /* Set the width of the background color */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
 }
 /* Styling for the image */
 .about-image {
