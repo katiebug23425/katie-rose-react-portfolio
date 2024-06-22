@@ -18,8 +18,13 @@ function Project(props) {
         >
           Deployed App
         </a>
-        <a href={props.githubLink} target="_blank" rel="noreferrer">
-          {/* Link content here */}
+        <a
+          href={props.githubLink}
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-repo"
+        >
+          GitHub Repo
         </a>
       </div>
     </div>

@@ -1,5 +1,6 @@
 // import React from "react";
 import Project from "./Project";
+import techTalk from "../images/techTalk.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style/Portfolio.css";
 
@@ -12,15 +13,15 @@ function Portfolio() {
       <div className="container">
         <div className="row">
           {[
-            // {
-            //   title: "",
-            //   description: "",
-            //   imgSrc: ,
-            //   deployedLink:
-            //     "",
-            //   githubLink:
-            //     "https://github.com/",
-            // },
+            {
+              title: "Katie Rose's Tech Talk",
+              description: "MVC Tech Blog using Handlebars.js, Sequelize, and Express.js. Users can create an account, log in, create, edit, and delete posts, and comment on other users' posts. Deployed on Heroku.",
+              imgSrc: techTalk,
+              deployedLink:
+                "https://calm-oasis-45287-2e786caef06d.herokuapp.com/",
+              githubLink:
+                "https://github.com/katiebug23425/model-view-controller-tech-blog",
+            },
             // {
             //   title: "",
             //   description: "",
