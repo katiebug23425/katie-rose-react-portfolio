@@ -35,7 +35,7 @@ Project.propTypes = {
   title: PropTypes.string.isRequired,
   deployedLink: PropTypes.string.isRequired,
   imgSrc: PropTypes.string.isRequired,
-  imgAlt: PropTypes.string.isRequired,
+  imgAlt: PropTypes.string,
   description: PropTypes.string.isRequired,
   githubLink: PropTypes.string.isRequired,
 };

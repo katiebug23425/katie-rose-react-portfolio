@@ -34,5 +34,10 @@
 .formClass, .mx-auto{
  /* margin-bottom: auto; */
  padding-bottom: 25px;
+ margin-bottom: 5rem;
 
+}
+
+.error-text {
+text-align: center;
 }

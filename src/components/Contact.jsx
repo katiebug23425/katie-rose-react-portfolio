@@ -27,12 +27,12 @@ const handleInputChange = (e) => {
 const handleFormSubmit = (e) => {
   e.preventDefault();
   if (!validateEmail(email) || !name ) {
-    setErrorMessage("Email is invalid or Name is missing");
+    setErrorMessage("Email is Invalid or Name is Missing!");
     return;
   }
 
   if (!setMessage(message)) {
-    setErrorMessage(`Message is required.`);
+    setErrorMessage(`Message is Required!`);
     return;
   }
 
@@ -48,10 +48,10 @@ const handleFormSubmit = (e) => {
         <Row>
           <Col lg={8} className="mx-auto">
             <h2 className="contact-header" style={{ fontSize: '50px' }}>Contact Me</h2>
-              {/* <p className="email-direct">
+              <p className="email-direct">
                 *Currently Under Construction* please 
                 <a href="mailto:katierosealford@gmail.com" style={{ marginLeft: '5px' }}>click this link to email me</a>
-              </p> */}
+              </p>
             <Form className="formClass" >
               <Form.Group>
                 <Form.Label htmlFor="name" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red' }}>Name:</Form.Label>
@@ -95,7 +95,7 @@ const handleFormSubmit = (e) => {
                 Send Message
               </Button>
               {errorMessage && (
-          <div style={{ fontSize: '25px', fontWeight: 'bold', color: 'red'}}>
+          <div style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black"}}>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
