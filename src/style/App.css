@@ -5,22 +5,6 @@ html {
     sans-serif;
   line-height: 1.6;
 }
-/* Set height, margin, and background image for body element */
-/* body {
-  height: 100%;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-image: linear-gradient(
-    to top right,
-    #fac90624 0%,
-    #ff660014 50%,
-    #cc330025 100%
-  );
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
-} */
 
 body {
   background-image: url("../images/alexander-sinn-KgLtFCgfC28-unsplash.jpg");
