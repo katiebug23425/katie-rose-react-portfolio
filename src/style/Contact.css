@@ -22,9 +22,17 @@
   padding: 10px 24px;
   border-radius: 4px;
   transition-duration: 0.4s;
+  /* margin-bottom: 25px; */
+  /* z-index: 1; Set a higher z-index value for the button */
 }
 /* Styling for the custom send message button when hovered over */
 .custom-send-message-button:hover {
   background-color: #16651a;
   color: white;
+}
+
+.formClass, .mx-auto{
+ /* margin-bottom: auto; */
+ padding-bottom: 25px;
+
 }

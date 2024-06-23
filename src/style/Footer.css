@@ -65,7 +65,7 @@
   .form-footer {
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 0;
+    margin-bottom: 5px;
     /* padding: 10px; */
   }
   

@@ -42,7 +42,7 @@ function Resume() {
             <li className="list-inline-item">
                 <strong style={{ color: "white" }}>Databases:</strong> NoSQL, MySQL, MongoDB, Custom Databases</li>
             <li className="list-inline-item">
-                <strong style={{ color: "white" }}>DevOps & Tools:</strong> VS Code, Git, GitHub, GitLab, Heroku, Render, Microsoft Office 365, MongoDB Compass, Mongo DB Atlas, NPM, Insomnia</li>
+                <strong style={{ color: "white" }}>DevOps & Tools:</strong> VS Code, Git, GitHub, GitLab, Heroku, Render, Microsoft Office 365, MongoDB Compass, Mongo DB Atlas, NPM, Insomnia, Jest</li>
             <li className="list-inline-item">
                 <strong style={{ color: "white" }}>Methodologies:</strong> Agile Project Management, Scrum, Kanban, Version Control, E-Commerce, SEO</li>
               <li className="list-inline-item">
