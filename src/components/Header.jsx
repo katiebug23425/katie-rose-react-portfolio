@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
+import { FaBomb } from "react-icons/fa";
+import { FaCode } from "react-icons/fa";
 
 
 // Header component
@@ -19,7 +21,7 @@ function Header() {
                 className="text-white text-decoration-none"
                 style={{ margin: "0" }}
               >
-                Katie Rose Alford
+                <FaBomb />Katie Rose Alford <FaCode />
               </Link>
             </h1>
           </Col>

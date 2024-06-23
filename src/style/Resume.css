@@ -1,0 +1,33 @@
+/* Styling for resume section heading */
+.resume-section h1 {
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  font-size: 50px;
+}
+/* Set margin top and bottom for resume section */
+.resume-margin {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.resume-header {
+  text-align: center;
+  color:  rgb(255, 0, 0);
+  background-color: black;
+  width: 18%; /* Set the width of the background color */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
+}
+
+/* Styling for the resume section container */
+.resume-item, .resume-skills {
+  margin-bottom: 20px;
+  margin-top: 15px;
+  background-color: black;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  width: 60%; /* Set the width of the background color */
+  margin-left: auto; /* Center the element horizontally */
+  margin-right: auto; /* Center the element horizontally */
+}

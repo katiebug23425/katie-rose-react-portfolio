@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-// import Resume from './components/Resume';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 // Import Bootstrap and custom CSS styles
@@ -22,7 +22,7 @@ function App() {
             <Route path="/katie-rose-react-portfolio/about" element={<About />} />
             <Route path="/katie-rose-react-portfolio/portfolio" element={<Portfolio />} />
             <Route path="/katie-rose-react-portfolio/contact" element={<Contact />} />
-            {/* <Route path="/katie-rose-react-portfolio/resume" element={<Resume />} /> */}
+            <Route path="/katie-rose-react-portfolio/resume" element={<Resume />} />
           </Routes>
         </div>
         <Footer />
