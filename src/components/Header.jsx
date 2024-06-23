@@ -3,8 +3,9 @@ import { Link } from "react-router-dom";
 import Navigation from "./Navigation";
 import { Container, Row, Col } from "react-bootstrap";
 import "../style/Header.css";
-import { FaBomb } from "react-icons/fa";
-import { FaCode } from "react-icons/fa";
+import Lottie from "lottie-react";
+import watermelon from "./watermelon.json";
+import chameleon from "./chameleon.json";
 
 
 // Header component
@@ -19,9 +20,8 @@ function Header() {
               <Link
                 to="/"
                 className="text-white text-decoration-none"
-                style={{ margin: "0" }}
-              >
-                <FaBomb />Katie Rose Alford <FaCode />
+              ><div className="lottie-icon">
+                <Lottie loop={true} animationData={watermelon}></Lottie></div>Katie Rose Alford <div className="lottie-icon2"><Lottie loop={true} animationData={chameleon}></Lottie></div>
               </Link>
             </h1>
           </Col>
