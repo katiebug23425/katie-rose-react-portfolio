@@ -10,7 +10,7 @@ function About() {
   return (
     // About section
 <section id="about" className="py-5">
-<div className="lottie-icon-6" style={{ background: "black" }}>
+<div className="lottie-icon-6" style={{ background: "white" }}>
 <Lottie loop={true} animationData={about}></Lottie></div>
   <h1 className="about-heading">About Me</h1>
       <Container>

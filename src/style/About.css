@@ -15,6 +15,8 @@ body {
   width: 23%; /* Set the width of the background color */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
+  border: rgb(255, 0, 0) 3px solid;
+  border-radius: 10px;
 }
 /* Styling for the image */
 .about-image {

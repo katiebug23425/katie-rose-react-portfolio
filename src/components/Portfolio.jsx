@@ -17,7 +17,7 @@ function Portfolio() {
   return (
     // Portfolio container
     <div className="portfolio-wrapper">
-        <div className="lottie-icon-4" style={{ background: "black" }}>
+        <div className="lottie-icon-4" style={{ background: "white" }}>
         <Lottie loop={true} animationData={portfolio}></Lottie></div>
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="container">
