@@ -7,6 +7,12 @@
   width: 40%; /* Set the width of the background color */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
+ 
+}
+
+.email-direct {
+  border:rgb(255, 0, 0) solid 3px;
+  border-radius: 10px;
 }
 /* Styling for the custom send message button */
 .custom-send-message-button {
@@ -49,3 +55,8 @@ text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
+
+/* .contact-header1 {
+  border:rgb(255, 0, 0) solid 3px;
+  border-radius: 20px;
+} */

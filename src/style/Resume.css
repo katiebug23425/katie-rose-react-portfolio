@@ -18,6 +18,8 @@
   width: 18%; /* Set the width of the background color */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
+  border:rgb(255, 0, 0) solid 3px;
+  border-radius: 20px;
 }
 
 /* Styling for the resume section container */
@@ -30,6 +32,8 @@
   width: 60%; /* Set the width of the background color */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
+  border:rgb(255, 0, 0) solid 3px;
+  border-radius: 20px;
 }
 
 .resumeBtn{

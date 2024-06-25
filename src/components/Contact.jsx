@@ -58,7 +58,7 @@ const handleFormSubmit = (e) => {
               </p>
             <Form className="formClass" >
               <Form.Group>
-                <Form.Label htmlFor="name" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black" }}>Name:</Form.Label>
+                <Form.Label htmlFor="name" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black", border: "red solid 3px", borderRadius: "5px" }}>Name:</Form.Label>
                 <Form.Control
                   type="text"
                   id="name"
@@ -71,7 +71,7 @@ const handleFormSubmit = (e) => {
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label htmlFor="email" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black", marginTop:5 }}>Email:</Form.Label>
+                <Form.Label htmlFor="email" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black", marginTop:5, border: "red solid 3px", borderRadius: "5px"  }}>Email:</Form.Label>
                 <Form.Control
                   type="email"
                   id="email"
@@ -84,7 +84,7 @@ const handleFormSubmit = (e) => {
                 />
               </Form.Group>
               <Form.Group>
-                <Form.Label htmlFor="message" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black", marginTop:5 }}>Message:</Form.Label>
+                <Form.Label htmlFor="message" style={{ fontSize: '25px', fontWeight: 'bold', color: 'red', background: "black", marginTop:5, border: "red solid 3px", borderRadius: "5px"  }}>Message:</Form.Label>
                 <Form.Control
                   as="textarea"
                   id="message"
