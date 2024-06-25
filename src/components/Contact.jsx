@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import "../style/Contact.css";
 import { validateEmail } from "../utils/helpers";
+import Lottie from "lottie-react";
+import contact from "./contact.json";
 
 function Contact() {
   // Set initial state for name, email, message, and form errors
@@ -47,6 +49,8 @@ const handleFormSubmit = (e) => {
       <Container>
         <Row>
           <Col lg={8} className="mx-auto">
+          <div className="lottie-icon-5" style={{ background: "black" }}>
+        <Lottie loop={true} animationData={contact}></Lottie></div>
             <h2 className="contact-header" style={{ fontSize: '50px' }}>Contact Me</h2>
               <p className="email-direct">
                 *Currently Under Construction* please 

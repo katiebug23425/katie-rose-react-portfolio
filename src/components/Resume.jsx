@@ -2,6 +2,8 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import "../style/Resume.css";
 import PDF from "../documentation/KRAResume.pdf";
+import Lottie from "lottie-react";
+import resume from "./resume.json";
 
 function Resume() {
   return (
@@ -10,9 +12,10 @@ function Resume() {
         <Row>
           <Col className="text-center">
           <div className="resume-header">
-            <h1>Resume</h1>
+          <div className="lottie-icon-3">
+          <Lottie loop={true} animationData={resume}></Lottie></div><h1>Resume</h1>
             </div>
-            <Button variant="primary" href={PDF} download>
+            <Button variant="primary" href={PDF} download className="resumeBtn">
               Download Resume
             </Button>
           </Col>

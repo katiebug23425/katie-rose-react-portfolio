@@ -3,11 +3,15 @@ import { Container, Row, Col, Card, Image } from "react-bootstrap";
 // import avatar from "../images/life motto.jpg";
 import anotherAvatar from "../images/katiebug.jpg";
 import "../style/About.css";
+import Lottie from "lottie-react";
+import about from "./about.json";
 
 function About() {
   return (
     // About section
 <section id="about" className="py-5">
+<div className="lottie-icon-6" style={{ background: "black" }}>
+<Lottie loop={true} animationData={about}></Lottie></div>
   <h1 className="about-heading">About Me</h1>
       <Container>
         <Row>
@@ -37,7 +41,7 @@ function About() {
                     I have always had a passion for computers but was self taught until MSU, learning and earning my way to the developer position I currently hold. This course has not only greatly improved the skills I had but added vital additional ones that I now see are necessary for a developer to have. I am excited to see where this journey takes me and am looking forward to the challenges that lie ahead. 
                   </Card.Text>
                   <Card.Text>
-                    In addition to my passion for programming and computers I hold many interests such as yoga, reading, writing, baking, cooking, hiking, exploring, traveling and of course spending time with my friends and family. I am the mother of an amazing young lady named Adrianna as well as my two dogs Bruno and Bella. We have a beautiful summer home in Northern Michigan that is actually a converted 117 year old church complete with 30 foot ceilings and stained glass windows. I am a lover of all things vintage and antique and have a passion for history and the stories that come with it. I adore traveling and have been to many places in the US and abroad and am always looking for new stamps in my passport & places to explore. I take at least 1 international vacation a year and as many domestic as I can afford! 
+                    {/* In addition to my passion for programming and computers I hold many interests such as yoga, reading, writing, baking, cooking, hiking, exploring, traveling and of course spending time with my friends and family. I am the mother of an amazing young lady named Adrianna as well as my two dogs Bruno and Bella. We have a beautiful summer home in Northern Michigan that is actually a converted 117 year old church complete with 30 foot ceilings and stained glass windows. I am a lover of all things vintage and antique and have a passion for history and the stories that come with it. I adore traveling and have been to many places in the US and abroad and am always looking for new stamps in my passport & places to explore. I take at least 1 international vacation a year and as many domestic as I can afford!  */}
                   </Card.Text>
                   <Card.Text>
                     I have been a sales savant my whole life and have been in sales for over 25 years. I also possess extensive marketing and advertising experience which when added to my sales and developer background make me the whole package. Not only can I build it for you I can also market, advertise and sell it for you too! But my true passion lies in the code and the development of the project. I love creating the functional code for the back end and then developing the beautiful front end to go with it.  I try to see the UI from the users point of view, as a layman would and then create it in such a way that is not only functional and beautiful but makes the user appreciative of such a structure, layout and design. I am a true artist at heart and I see code as my canvas.

@@ -31,3 +31,29 @@
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
 }
+
+.resumeBtn{
+background-color: blue;
+border: none;
+color: white;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+margin: 4px 2px;
+cursor: pointer;
+padding: 10px 24px;
+border: white, solid, 3px;
+border-radius: 4px;
+  transition-duration: 0.4s
+}
+
+.resumeBtn:hover {
+  background-color:mediumblue;
+  color: white;
+}
+
+.lottie-icon-3 {
+  height: 200px;
+  width: 200px;
+}

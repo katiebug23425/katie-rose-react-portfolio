@@ -1,4 +1,7 @@
 // import React from "react";
+import Lottie from "lottie-react";
+import portfolio from "./portfolio.json";
+
 import Project from "./Project";
 import techTalk from "../images/techTalk.png";
 import gamersGala from "../images/gamersGala.png";
@@ -14,6 +17,8 @@ function Portfolio() {
   return (
     // Portfolio container
     <div className="portfolio-wrapper">
+        <div className="lottie-icon-4" style={{ background: "black" }}>
+        <Lottie loop={true} animationData={portfolio}></Lottie></div>
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="container">
         <div className="row">
