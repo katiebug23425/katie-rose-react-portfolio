@@ -33,7 +33,7 @@ const handleFormSubmit = (e) => {
     return;
   }
 
-  if (!setMessage(message)) {
+  if (!message) {
     setErrorMessage(`Message is Required!`);
     return;
   }

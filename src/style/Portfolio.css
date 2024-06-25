@@ -9,7 +9,7 @@
   width: 23%; /* Set the width of the background color */
   margin-left: auto; /* Center the element horizontally */
   margin-right: auto; /* Center the element horizontally */
-  border: rgb(255, 0, 0) 3px solid;
+  border: rgb(255, 0, 0) 5px solid;
   border-radius: 10px;
 }
 
@@ -26,7 +26,7 @@ body {
 /* Styling for card element */
 .card {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: none;
+  border: blue 3px solid;
   border-radius: 4px;
   text-align: center;
 }

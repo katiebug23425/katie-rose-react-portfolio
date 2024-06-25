@@ -26,8 +26,7 @@ function Resume() {
             <h3 style={{ color: "white" }}>Professional Summary</h3>
               <ul>
                 <p>
-                  Lines speaking about myself and qualifications
-                </p>
+                  With over 25 years of sales, marketing, advertising & customer service experience, I have a proven track record of success in a variety of industries. On top of that I am also a Full Stack Web Developer with a certificate from Michigan State University with over 7 years of experience in the field. I am a true full stack developer with a passion for both the front and back end development. I am skilled in creating applications that are not only functional, beautiful and user friendly but are best practice for SEO, marketing, advertising and most of all are sales driven!</p>
               </ul>
             </div>
           </Col>
