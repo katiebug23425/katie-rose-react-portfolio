@@ -12,6 +12,30 @@ function Contact() {
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
+  const handleNameBlur = () => {
+    if (name.trim() === '') {
+      setErrorMessage('Name is required');
+    } else {
+      setErrorMessage('');
+    }
+  };
+  
+  const handleEmailBlur = () => {
+    if (email.trim() === '') {
+      setErrorMessage('Email is required');
+    } else {
+      setErrorMessage('');
+    }
+  };
+
+  const handleMessageBlur = () => {
+    if (message.trim() === '') {
+      setErrorMessage('Message is required');
+    } else {
+      setErrorMessage('');
+    }
+  };
+
 const handleInputChange = (e) => {
   const { target } = e;
   const inputType = target.name;
@@ -67,6 +91,7 @@ const handleFormSubmit = (e) => {
                   placeholder="Please Enter Your Name"
                   autoComplete="off"
                   onChange={handleInputChange}
+                  onBlur={handleNameBlur}
                   required
                 />
               </Form.Group>
@@ -80,6 +105,7 @@ const handleFormSubmit = (e) => {
                   placeholder="Please Enter Your Email"
                   autoComplete="off"
                   onChange={handleInputChange}
+                  onBlur={handleEmailBlur}
                   required
                 />
               </Form.Group>
@@ -93,6 +119,7 @@ const handleFormSubmit = (e) => {
                   value={message}
                   placeholder="Please Enter Your Message Here"
                   onChange={handleInputChange}
+                  onBlur={handleMessageBlur}
                 />
               </Form.Group>
               <Button type="submit" onClick={handleFormSubmit} className="custom-send-message-button">
