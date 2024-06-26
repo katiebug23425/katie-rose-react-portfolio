@@ -1,6 +1,7 @@
 # Katie Rose React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ba8eb867-77be-48fc-839d-3f493a6fe8d8/deploy-status)](https://app.netlify.com/sites/katierosereactportfolio/deploys)
 
 ##  Description
 A portfolio created using React that showcases projects, skills and various attributes of the developer (me!).
