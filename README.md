@@ -21,6 +21,7 @@ Browse and enjoy! Links to pages About Me, Portfolio, Contact & Resume in header
 
 ## Link to Deployed App:
 
+https://katierosereactportfolio.netlify.app/
 
 
 ## Credits:
